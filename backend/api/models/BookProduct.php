@@ -21,7 +21,7 @@ class BookProduct extends AbstractProduct
         $sku = $this->getSku();
         $name = $this->getName();
         $price = $this->getPrice();
-        $attribute = "Size";
+        $attribute = "Weight";
         $weight = $this->weight;
 
         $stmt->bindParam(':sku', $sku);
